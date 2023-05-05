@@ -6,11 +6,11 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		String pass = "abc";
+		final String pass = "abc"; // final = constante
 		Scanner scanner = new Scanner(System.in);
-		boolean correct = false;
+		boolean correct = false; // = FLAG 
 		
-		while (correct == false) {
+		for (int i = 0;i < 3; i++) {
 			
 			System.out.println("Write a Password: ");
 			String tryPass = scanner.nextLine();
@@ -22,9 +22,18 @@ public class App {
 			else{
 				System.out.println("Incorrect!!!");
 			}
+			if(correct) {
+				break;
+			}
 			
 		}
-		System.out.println("Correct!!!");
+		if(correct) {
+			System.out.println("Correct!!!");
+		}else {
+			System.out.println("No more chance!");
+		}
+		
+		
 		scanner.close();
 		
 	}
