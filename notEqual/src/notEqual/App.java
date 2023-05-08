@@ -11,9 +11,13 @@ public class App {
 		System.out.println(value1 != value2);
 		
 		String fruit1 = "banana";
-		String fruit2 = "banana";
+		String fruit2 = "apple";
 		
-		System.out.println(fruit1 == fruit2);
 		System.out.println(!fruit1.equals(fruit2));
+		
+		// não usar, neste caso funciona pq são dois literais
+		System.out.println(fruit1 != fruit2);
+		
+		
 	}
 }

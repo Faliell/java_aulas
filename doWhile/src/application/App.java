@@ -1,6 +1,5 @@
 package application;
 
-import java.util.Scanner;
 
 public class App {
 
@@ -13,9 +12,7 @@ public class App {
 		}
 	
 		while (count++ < 10);
-		
-
-		
+	
 	}
 
 }
