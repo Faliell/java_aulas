@@ -18,7 +18,7 @@ public class App {
 		for(int i=0; i<words.length; i++) {
 			System.out.println(words[i]);
 		}
-			
+		// iterate stream:
 		IntStream.range(0, words.length).forEach(i -> {
 			System.out.printf("%d. %s %n", i + 1, words[i]);
 		});

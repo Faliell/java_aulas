@@ -18,6 +18,7 @@ public class application {
 			else if(input.equals("STOP")) {
 				System.out.println("Stoping");
 			}
+			
 			else if(input.equalsIgnoreCase("QUIT")) {
 				System.out.println("Quiting");
 				finish = true;
