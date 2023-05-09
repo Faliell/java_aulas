@@ -1,6 +1,6 @@
 package application;
 
-
+import java.util.stream.IntStream;
 
 public class App {
 	public static void main(String[] args) {
@@ -13,13 +13,15 @@ public class App {
 		
 		System.out.println(words[0]);
 		
-		//interate:
+		//iterate:
 		
 		for(int i=0; i<words.length; i++) {
 			System.out.println(words[i]);
 		}
 			
-		
+		IntStream.range(0, words.length).forEach(i -> {
+			System.out.printf("%d. %s %n", i + 1, words[i]);
+		});
 			
 	}
 }
