@@ -9,15 +9,9 @@ public class App {
 				{ "seven", "eight", "nine" } 
 			};
 
-		for(int i = 0; i < text.length; i++) {
-			String[] substring = text[i];
-
-			for(int j = 0; j < text.length; j++) {
-				System.out.printf("%s\t", substring[j]);	
-			}
-			System.out.println();
-
-		}
+		System.out.println(text[1][1]);
+		
+		text[1][1] = "blue";
 		
 		for(int i = 0; i < text.length; i++) {
 
