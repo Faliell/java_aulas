@@ -13,7 +13,7 @@ public class App {
 		}
 		
 		int[] num = null;
-		//num = new int[2];
+		num = new int[2];
 		for(int n: num) {
 			System.out.println(n);
 		}
