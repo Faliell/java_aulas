@@ -20,7 +20,10 @@ public class App {
 		
 		car1.color = "blue";
 		car1.door = 4;
-		System.out.printf("%s %d",car1.color, car1.door);
+		System.out.printf("%s %d\n",car1.color, car1.door);
+		
+		car1.turnOn();
+		car1.whichColor();
 		
 
 	}
