@@ -15,6 +15,13 @@ public class App {
 		
 		System.out.println(person1.name);
 		System.out.println(person2.name);
+		
+		Car car1 = new Car();
+		
+		car1.color = "blue";
+		car1.door = 4;
+		System.out.printf("%s %d",car1.color, car1.door);
+		
 
 	}
 
