@@ -3,9 +3,11 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		Menu menu1 = new Menu();
+		Menu menu = new Menu();
 		
-		menu1.display();
+		String show = menu.display();
+		
+		System.out.println(show);
 				
 	}
 

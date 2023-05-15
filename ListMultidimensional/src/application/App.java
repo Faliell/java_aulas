@@ -3,6 +3,9 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
+		
+		//var text1 = new String [][] {};
+		
 		String[][] text = {
 				{ "one", "two", "three" },
 				{ "four", "five", "six" },
