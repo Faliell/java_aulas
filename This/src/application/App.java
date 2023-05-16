@@ -7,9 +7,11 @@ public class App {
 		
 		person1.setName("Fabio");
 		person1.setAge(42);
-		System.out.println(person1.name);
-		System.out.println(person1.age);
-
+		//System.out.println(person1.name);
+		//System.out.println(person1.age);
+		System.out.println(person1.getName());
+		System.out.println(person1.getAge());
 	}
 
 }
+
