@@ -11,6 +11,8 @@ public class App {
 		System.out.println(person1.getAge());
 		System.out.println(person2.getName());
 		System.out.println(person2.getAge());
+		
+		System.out.println(person2);
 
 	}
 
