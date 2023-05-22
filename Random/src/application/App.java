@@ -1,20 +1,28 @@
 package application;
 
-import java.util.Random;
 
 public class App {
 
 	public static void main(String[] args) {
 		
-		int[] lista = {2,4,6,8};
+		//unicode
 		
-		Random random = new Random();
+		char c1 = 'a';
+		System.out.println(c1);
 		
-		int choice = random.nextInt(10);
-		System.out.println(choice);
+		char c2 = '\u0000';
+		System.out.println(c2);
 		
-		int choice2 = lista[random.nextInt(lista.length)];
-		System.out.println(choice2);
+		char c3 = 77;
+		System.out.println(c3);
+		
+		char c4 = '\u27AB';
+		System.out.println(c4);
+		
+		String text = "orange";
+		
+		char c5 = text.charAt(4);
+		System.out.println(c5);
 
 	}
 
