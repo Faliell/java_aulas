@@ -3,7 +3,8 @@ package application;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Hangman hangman1 = new Hangman();
+		hangman1.run();
 
 	}
 
