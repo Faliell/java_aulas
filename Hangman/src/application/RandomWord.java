@@ -19,22 +19,22 @@ public class RandomWord {
 
 	public String toString() {
 		
-		String text = "";
+		StringBuilder text = new StringBuilder();
 		
 		
 		
 		for (char c: characters) {
 			if(c == '\u0000') {
-				text += '_';
+				text.append("-");
 			}
 			else {
-				text += c;
+				text.append(c);
 			}
-			text += " ";
+			text.append(" ");
 			
 		}
-		
-		return text;
+		String result = text.toString();
+		return result;
 	}
 }
 	
