@@ -21,10 +21,10 @@ public class RandomWord {
 		
 		String text = "";
 		
-		characters[1] = 'b';
+		
 		
 		for (char c: characters) {
-			if(c == ' ') {
+			if(c == '\u0000') {
 				text += '_';
 			}
 			else {
