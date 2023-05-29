@@ -16,11 +16,14 @@ public class App {
 		int[] lista = { 33,4,55,6,77};
 		
 		int min = Integer.MAX_VALUE;
+		int max = Integer.MIN_VALUE;
 		
 		for(int i: lista) {
 			min = min > i ? i : min;
+			max = max < i ? i : max;
 		}
 		System.out.println(min);
+		System.out.println(max);
 	}
 
 }
