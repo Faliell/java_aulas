@@ -1,9 +1,12 @@
 package application;
 
+import java.util.Scanner;
+
 public class Hangman {
 	
-	private boolean running = false;
+	private boolean running = true;
 	private RandomWord word = new RandomWord();
+	Scanner scanner = new Scanner(System.in);
 	
 	public void run() {
 		
@@ -20,7 +23,10 @@ public class Hangman {
 	}
 
 	private void getUserInput() {
-		System.out.println("getUserInput");
+		System.out.print("Enter your guess: ");
+		String guess = scanner.nextLine();
+		char c;
+		word.addGuess(guess.charAt(0));
 		
 	}
 
