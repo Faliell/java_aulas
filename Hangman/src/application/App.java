@@ -5,6 +5,7 @@ public class App {
 	public static void main(String[] args) {
 		Hangman hangman1 = new Hangman();
 		hangman1.run();
+		hangman1.close();
 
 	}
 

@@ -26,7 +26,6 @@ INDEX VERSION 1.131+/Users/fabioschapowal/Desktop/JAVA_aulas/.metadata/.plugins/
 4284435842.index
 2285594741.index
 2221089561.index
-3878158382.index
 3953429693.index
 3927879410.index
 3009081536.index

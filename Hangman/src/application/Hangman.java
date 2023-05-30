@@ -18,7 +18,12 @@ public class Hangman {
 	}
 	
 	private void checkUserInput() {
-		System.out.println("checkUserInput");
+		if(word.isComplete()) {
+			System.out.println("You won");
+			System.out.println("The word is " + word);
+			running = false;
+		}
+		
 		
 	}
 
@@ -32,5 +37,10 @@ public class Hangman {
 
 	void displayWord() {
 		System.out.println(word);
+	}
+
+	public void close() {
+		scanner.close();
+		
 	}
 }

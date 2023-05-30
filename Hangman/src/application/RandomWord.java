@@ -28,6 +28,17 @@ public class RandomWord {
 		String result = text.toString();
 		return result;
 	}
+	
+	public boolean isComplete() {
+		
+		for(char c: characters) {
+			if(c == '\u0000') {
+				return false;
+			}
+		}
+		
+		return true;
+	}
 
 	public void addGuess(char c) {
 		for(int i=0; i<chosenWord.length(); i++) {
