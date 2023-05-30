@@ -40,13 +40,18 @@ public class RandomWord {
 		return true;
 	}
 
-	public void addGuess(char c) {
+	public boolean addGuess(char c) {
+		
+		boolean correct = false;
+		
 		for(int i=0; i<chosenWord.length(); i++) {
+		
 			if (chosenWord.charAt(i) == c) {
 				characters[i] = c;
-			}
-			
+				correct = true;
+			}		
 		}
+		return correct;
 		
 	}
 }
