@@ -20,6 +20,13 @@ public class App {
 		
 		
 		System.out.println(takeUmbrella);
+		
+		if(isRaining || haveUmbrella) {
+			takeUmbrella = true;
+		}
+		takeUmbrella = isRaining || haveUmbrella;
+		
+		System.out.println(takeUmbrella);
 	}
 
 }
