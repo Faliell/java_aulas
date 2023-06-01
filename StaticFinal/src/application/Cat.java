@@ -2,13 +2,26 @@ package application;
 
 public class Cat {
 	private String name;
-	public static final String FOOD = "Cat rice";
+	private int id;
+	public static final String FOOD = "rice";
+	public static int count;
 
 	public Cat(String name) {
 		this.name = name;
+		this.id = count;
+		
+		count++;
 	}
 	public String toString() {
 		return "Cat [name=" + name + "]";
+	}
+	
+	public int getCount() {
+		return count;
+	}
+	
+	public int getId() {
+		return id;
 	}
 	
 	

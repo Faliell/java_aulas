@@ -10,6 +10,10 @@ public class App {
 		System.out.println(cat2);
 		
 		System.out.println(cat1.FOOD);
+		
+		System.out.println(cat1.getCount());
+		
+		System.out.println(cat1.getId());
 	}
 
 }
