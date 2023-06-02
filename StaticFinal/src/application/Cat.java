@@ -16,9 +16,9 @@ public class Cat {
 		return "Cat [name=" + name + "]";
 	}
 	
-	public int getCount() {
+	public static int getCount() {
 		return count;
-	}
+	} 
 	
 	public int getId() {
 		return id;
