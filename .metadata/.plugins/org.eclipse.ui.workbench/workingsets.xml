@@ -47,6 +47,7 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685508990656_4" label="fase2" name="fase2">
 <item elementID="=StaticFinal" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Inheritence" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=BooleanAndOr" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681970242426_2" label="Window Working Set" name="Aggregate for window 1681970242426"/>

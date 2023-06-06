@@ -8,6 +8,7 @@ public class App {
 		
 		boolean takeUmbrella = false;
 		
+		// && and
 		if(isRaining) {
 			if(haveUmbrella) {
 				takeUmbrella = true;
@@ -21,9 +22,11 @@ public class App {
 		
 		System.out.println(takeUmbrella);
 		
+		// or ||
 		if(isRaining || haveUmbrella) {
 			takeUmbrella = true;
 		}
+		//ternary
 		takeUmbrella = isRaining || haveUmbrella;
 		
 		System.out.println(takeUmbrella);

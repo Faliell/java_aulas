@@ -5,6 +5,13 @@ public class Cat {
 	private int id;
 	public static final String FOOD = "rice";
 	public static int count;
+	
+	static double averageHeight = 222;
+	
+	static {
+		System.out.println("hello");
+		System.out.println(averageHeight);
+	};
 
 	public Cat(String name) {
 		this.name = name;
@@ -20,8 +27,8 @@ public class Cat {
 		return count;
 	} 
 	
-	public int getId() {
-		return id;
+	public String getId() {
+		return String.format("ID: %d",id);
 	}
 	
 	
