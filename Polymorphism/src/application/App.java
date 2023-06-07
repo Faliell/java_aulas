@@ -11,7 +11,9 @@ public class App {
 		
 		Cat cat1 = new HomeCat();
 		
-		cat1.purr();
+		//cat1.purr(); not working
+		
+		((HomeCat)cat1).purr();
 
 	}
 

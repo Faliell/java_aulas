@@ -5,7 +5,5 @@ public class Cat {
 		System.out.println("roar!");
 	}
 	
-	public void purr() {
-		System.out.println("purrrr");
-	}
+	
 }
