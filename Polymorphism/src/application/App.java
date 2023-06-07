@@ -8,6 +8,10 @@ public class App {
 		for(Cat cat: cats) {
 			cat.vocalize();
 		}
+		
+		Cat cat1 = new HomeCat();
+		
+		cat1.purr();
 
 	}
 
