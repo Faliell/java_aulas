@@ -6,10 +6,14 @@ public class GameObjects {
 	
 	private int[][] comparision = {
 			/* rock paper scissors */
-			/* rock     */{0,0,0},
-			/* paper    */{0,0,0},
-			/* scissors */{0,0,0}	
+			/* rock     */{ 0,-1, 1},
+			/* paper    */{ 1, 0,-1},
+			/* scissors */{-1, 1, 0}	
 	};
+	
+	public int compareTo(GameObjects other) {
+		return comparision[id][other.id];
+	}
 	
 	
 	public String getName() {
