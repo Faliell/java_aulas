@@ -4,6 +4,13 @@ public class GameObjects {
 	private int id;
 	private String name;
 	
+	private int[][] comparision = {
+			/* rock paper scissors */
+			/* rock     */{0,0,0},
+			/* paper    */{0,0,0},
+			/* scissors */{0,0,0}	
+	};
+	
 	
 	public String getName() {
 		return name;
