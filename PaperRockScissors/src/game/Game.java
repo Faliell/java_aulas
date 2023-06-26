@@ -11,11 +11,14 @@ public class Game {
 	
 	private GameObjects[] objects = {new Rock(), new Paper(), new Scissors()};
 	
-	Random random = new Random();
-	
-	GameObjects obj = objects[random.nextInt(objects.length)];
 	
 	public void run() {
+		System.out.println("running");
+		
+		Random random = new Random();
+		
+		GameObjects obj = objects[random.nextInt(objects.length)];
+		
 		System.out.println(obj);
 	}
 }
