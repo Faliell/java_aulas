@@ -1,6 +1,6 @@
 package game.objects;
 
-public class GameObjects {
+public class GameObjects implements Comparable<GameObjects> {
 	private int id;
 	private String name;
 	
@@ -10,10 +10,6 @@ public class GameObjects {
 			/* paper    */{ 1, 0,-1},
 			/* scissors */{-1, 1, 0}	
 	};
-	
-	public int compareTo(GameObjects other) {
-		return comparision[id][other.id];
-	}
 	
 	
 	public String getName() {
@@ -30,7 +26,11 @@ public class GameObjects {
 	}
 	@Override
 	public String toString() {
-		return "GameObjects [id=" + id + ", name=" + name + "]";
+		return name;
+	}
+	@Override
+	public int compareTo(GameObjects other) {
+		return comparision[id][other.id];
 	}
 	
 	
