@@ -5,7 +5,7 @@ public class Person {
 		System.out.println("hi");
 	}
 	public void greet(String nameToGreet){
-		System.out.println("Hi" + nameToGreet);
+		System.out.println("Hi " + nameToGreet);
 	}
 
 }
