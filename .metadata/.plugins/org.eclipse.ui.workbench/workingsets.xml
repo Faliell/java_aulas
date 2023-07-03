@@ -61,6 +61,7 @@
 <item elementID="=BooleanAndOr" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ConstructorChaining" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Overloading" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=AccessModifier" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681970242426_2" label="Window Working Set" name="Aggregate for window 1681970242426"/>
 <mruList name="fase2"/>
