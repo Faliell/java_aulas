@@ -53,6 +53,7 @@
 <item elementID="=Abstract classes" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Modelo" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=DownCasting" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=InterfaceExemple" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Protected" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=StaticFinal" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Override" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
