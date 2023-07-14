@@ -8,10 +8,4 @@ public class Machine implements DefaultRunnable {
 		
 	}
 
-	@Override
-	public void displayDetails() {
-		System.out.println("No details");
-		
-	}
-
 }

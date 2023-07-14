@@ -1,5 +1,7 @@
 package application;
 
 public interface DefaultRunnable extends Runnable{
-	void displayDetails();
+	default void displayDetails() {
+		System.out.println("default no details");
+	};
 }
