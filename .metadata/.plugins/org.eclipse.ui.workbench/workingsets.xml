@@ -66,6 +66,7 @@
 <item elementID="=StaticFinal" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=SwingComponents" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=InterfaceInheritance" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EggTimer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Inheritence" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=AbstractClass" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=ConstructorChaining" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
