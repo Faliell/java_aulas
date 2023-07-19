@@ -73,7 +73,11 @@
 <item elementID="=Overloading" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=AccessModifier" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1689747655378_5" label="fase3" name="fase3">
+<item elementID="=Toolsbar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681970242426_2" label="Window Working Set" name="Aggregate for window 1681970242426"/>
+<mruList name="fase3"/>
 <mruList name="fase2"/>
 <mruList name="fase1"/>
 </workingSetManager>
